@@ -1,0 +1,57 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int option; 									
+  do 													
+  { 
+    
+     cout << "1) CALCULATE THE AREA OF A TRIANGLE   :" << endl;
+     cout << "2) CALCULATE THE QUADRATIC EQUATION   :" << endl;
+     cout << "3) CALCULATE AREA OF A TRIANGE        :" << endl;
+     cout << "4) CALCULATE AREA OF A TRIANGE        :" << endl;
+     cout << "5) Exit Program " << endl;    
+     
+     
+     cout << "Please select an option : "<< endl;
+     cin >> option; 
+     if(option == 1)
+     {
+     	system("CLS");
+      
+        cout << "A Man and a Woman coming together doing KPAKPAKPA" << endl;
+        
+     else if(option == 2)
+     {
+     	system("CLS");
+       
+     }
+     else if(option == 3) 
+     {
+     	system("CLS");
+      
+     }
+      else if(option == 4) 	
+     {
+     	system("CLS");
+      
+     }
+     else if(option == 5) 
+     {
+     	system("CLS");
+       cout << "Terminating Program" << endl;
+     }
+     else
+     {
+     	system("CLS");
+     	
+       cout << "Invalid Option entered" << endl;
+     }
+  }
+  while(option != 5); 
+   
+   return 0;
+}
+
